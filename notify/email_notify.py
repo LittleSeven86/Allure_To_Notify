@@ -11,8 +11,9 @@
 '''
 import smtplib
 from email.mime.text import MIMEText
-from Allure_tools.allure_report_data import TestMetrics, AllureFileClean
-from utils import config
+
+from allure_tools.allure_report_data import AllureFileClean,TestMetrics
+from Utils import config
 
 
 class SendEmail:

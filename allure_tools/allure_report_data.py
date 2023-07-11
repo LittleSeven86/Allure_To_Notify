@@ -2,7 +2,7 @@
 # -*- coding:utf-8 -*-
 '''
 -----------------------------------------------------------
-    @FileName  :allure.report_data.py
+    @FileName  :allure_report_data.py
     @Time      :2023/7/9 20:50
     @Author    :LittleSeven
     @Address   ：https://github.com/LittleSeven86

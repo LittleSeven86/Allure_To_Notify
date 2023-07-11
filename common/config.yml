@@ -57,11 +57,9 @@ lark:
 
 # 钉钉相关配置
 ding_talk:
-#  webhook: https://oapi.dingtalk.com/robot/send?access_token=a59902a7e811f93ffe301d8326b07a2acc8aa2a864e7d61ee9fc076481ced2a6
-#  secret: SECdea6489dfcc3b9259da943c5ae38d3530696f2fa83ac72a9ee716e9511675b9b
   webhook: https://oapi.dingtalk.com/robot/send?access_token=6b147ac370733c7417a5f9c32ea6eb7c0f8e7297a309dc4ebeef26a09bab707e
   secret: SEC69f165aaf17ea11aa3dcdd8faf1cf370b324c474d4c009e30fd6c791b9f0032d
 
 # 企业通知的相关配置
 wechat:
-  webhook: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=22748687-fa3b-4e48-a5d7-0502cef422b4
+  webhook: https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=5e6bfeaf-d1d9-423b-a489-6a92a922bf65
