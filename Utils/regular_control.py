@@ -215,5 +215,5 @@ def regular(target):
 if __name__ == '__main__':
     a = "${{host()}} aaa"
     b = regular(a)
-    print(a)
+    # print(a)
     print(b)

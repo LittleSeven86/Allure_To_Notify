@@ -16,4 +16,4 @@ from Utils.models import Config
 
 _data = GetYamlData(ensure_path_sep("\\common\\config.yml")).get_yaml_data()
 config = Config(**_data)
-print(_data)
+# print(_data)

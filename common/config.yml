@@ -53,7 +53,7 @@ email:
 
 # 飞书通知
 lark:
-  webhook:
+  webhook: https://open.feishu.cn/open-apis/bot/v2/hook/96025325-4ab6-4691-ae0c-e02956d47a75
 
 # 钉钉相关配置
 ding_talk:

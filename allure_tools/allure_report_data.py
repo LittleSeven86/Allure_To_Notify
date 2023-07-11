@@ -61,7 +61,7 @@ class AllureFileClean:
         :return: TestMetrics对象封装 统计信息
         '''
         try:
-            print(os.getcwd())
+            # print(os.getcwd())
             # file_name = ensure_path_sep("\\report1\\html\\widgets\\summary.json")
             file_name = ensure_path_sep("\\report\\html\\widgets\\summary.json")
             with open(file_name, 'r', encoding='utf-8') as file:
@@ -93,4 +93,4 @@ if __name__ == '__main__':
     # AllureFileClean().get_case_count()
     # print(AllureFileClean.get_testcases())
     res = AllureFileClean.get_case_count()
-    print(res)
+    # print(res)
